@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Noto+Sans+Mono:wght@600&display=swap');
-/* font-family: 'Battambang', cursive;
-font-family: 'Source Sans Pro', sans-serif; */
 .card:hover{
     box-shadow: 1px 0px 15px 1px gray;
 }
 .card p{
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: sans-serif;
 }
 .card button{
-    font-family: 'Dangrek', cursive;
+    font-family: monospace;
 }
+
