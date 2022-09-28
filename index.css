@@ -48,6 +48,17 @@
   transform: scale(1.1);
 }
 
+.ratings i {
+  color: green;
+}
+
+.install span {
+  font-size: 12px;
+}
+
+.col-md-4 {
+  margin-top: 27px;
+}
 
 /* media query */
 

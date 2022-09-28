@@ -6,17 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>www.lihour Phone Shop.com.kh</title>
-  <link rel="shortcut icon" href="./img/icons8-web-64.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/icons8-web-64.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./src/bootstrap-5.0.2-dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="./src/fontawesome-free-6.1.2-web/css/all.css">
+  <link rel="stylesheet" href="./src/fontawesome-free-6.1.2-web/css/all.css" />
   <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
   <!-- top Nav -->
   <nav
-    class="container-fluid bg-transparent shadow-lg d-lg-flex align-items-center justify-content-lg-end  text-dark d-sm-flex d-none ">
-    <span class="h6 m-2 d-block h4 "><i class="fa-solid fa-phone text-danger "></i> Tel: 0888413464 / 0969843791</span>
+    class="container-fluid bg-transparent shadow-lg d-lg-flex align-items-center justify-content-lg-end text-dark d-sm-flex d-none">
+    <span class="h6 m-2 d-block h4"><i class="fa-solid fa-phone text-danger"></i> Tel: 0888413464 /
+      0969843791</span>
     <span class="h6 d-block m-2 h4"><a href="" class="nav-link"><i class="fa-brands fa-facebook text-info"></i> Hoeur
         Lihour</a></span>
   </nav>
@@ -25,7 +28,7 @@
   <!-- navbar -->
   <header class="container-fluid sticky-top sticky-sm-top navbar_respon shadow" id="navbar_respon">
     <nav class="container navbar navbar-expand-lg navbar-light">
-      <a href="index.html" class="navbar-brand nav-link text-dark">LIHOUR ELECTRO<i
+      <a href="index.html" class="navbar-brand nav-link text-dark">HOUR ELECTRO<i
           class="fa-solid fa-circle ms-2 text-info"></i></a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
         <span class="navbar-toggler-icon"></span>
@@ -36,17 +39,19 @@
           <li class="nav-item"><a href="#" class="nav-link">Computer</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Watch</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Builder</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Headphone</a></li>
         </ul>
         <form action="" class="d-flex d-lg-flex" role="search">
-          <input type="search" name="" id="search" class="form-control m-1" placeholder="search..." aria-label="search">
-          <button class="btn btn-primary m-auto">Search</button>
+          <input type="search" name="" id="search" class="form-control m-1" placeholder="search..."
+            aria-label="search" />
+          <button class="btn btn-primary m-auto ">Search</button>
         </form>
       </div>
     </nav>
   </header>
   <!-- end Navbar? -->
-  <!-- slideet -->
+  <!-- sliders -->
 
   <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -84,28 +89,37 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
     </div>
+    <!-- end slider -->
+
+    <!-- end category of products -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./img/img1.jpg" class="d-block w-100" alt="...">
+        <img src="./img/img1.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block text-dark">
           <h2>First slide label</h2>
-          <h4>Some representative placeholder content for the first slide.</h4>
+          <h4>
+            Some representative placeholder content for the first slide.
+          </h4>
           <button class="btn btn-info w-25">Pre Order</button>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./img/img2.jpg" class="d-block w-100" alt="...">
+        <img src="./img/img2.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block text-primary">
           <h2>Second slide label</h2>
-          <h4>Some representative placeholder content for the second slide.</h4>
+          <h4>
+            Some representative placeholder content for the second slide.
+          </h4>
           <button class="btn btn-warning w-25">Pre Order</button>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./img/img3.jpg" class="d-block w-100" alt="...">
+        <img src="./img/img3.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h2>Third slide label</h2>
-          <h4>Some representative placeholder content for the third slide.</h4>
+          <h4>
+            Some representative placeholder content for the third slide.
+          </h4>
           <button class="btn btn-danger w-25">Pre Order</button>
         </div>
       </div>
@@ -120,76 +134,155 @@
     </button>
   </div>
   <!-- end slider -->
-  <!-- brand categery -->
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-3" style="height: 200px;">
+          <div class="d-flex flex-row mb-3"><img src="./img/brand_img/smartphone.png" width="70">
+            <div class="d-flex flex-column ml-2"><span>Smart Phone</span><span class="text-black-50">New
+                Update</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+          </div>
+          <h6>Get more all Phone Products New release.</h6>
+          <div class="d-flex justify-content-end install mt-3"><a href="" class="text-primary nav-link">View&nbsp;<i
+                class="fa fa-angle-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3" style="height: 200px;">
+          <div class="d-flex flex-row mb-3"><img src="./img/brand_img/laptop-screen.png" width="70">
+            <div class="d-flex flex-column ml-2"><span>Laptop</span><span class="text-black-50">New
+                Update</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+          </div>
+          <h6>Get more all Phone Products New release.</h6>
+          <div class="d-flex justify-content-end install mt-3"><a href="" class="text-primary nav-link">View&nbsp;<i
+                class="fa fa-angle-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3" style="height: 200px;">
+          <div class="d-flex flex-row mb-3"><img src="./img/brand_img/watch.png" width="70">
+            <div class="d-flex flex-column ml-2"><span>Watch</span><span class="text-black-50">New
+                Update</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+          </div>
+          <h6>Get more all Phone Products New release.</h6>
+          <div class="d-flex justify-content-end install mt-3"><a href="" class="text-primary nav-link">View&nbsp;<i
+                class="fa fa-angle-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3" style="height: 200px;">
+          <div class="d-flex flex-row mb-3"><img src="./img/brand_img/lan.png" width="70">
+            <div class="d-flex flex-column ml-2"><span>Accessory</span><span class="text-black-50">New
+                Update</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+          </div>
+          <h6>Get more all Phone Products New release.</h6>
+          <div class="d-flex justify-content-end install mt-3"><a href="" class="text-primary nav-link">View&nbsp;<i
+                class="fa fa-angle-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3" style="height: 200px;">
+          <div class="d-flex flex-row mb-3"><img src="./img/brand_img/computer-desktop.png" width="70">
+            <div class="d-flex flex-column ml-2"><span>Builder</span><span class="text-black-50">New
+                Update</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+          </div>
+          <h6>Get more all Phone Products New release.</h6>
+          <div class="d-flex justify-content-end install mt-3"><a href="" class="text-primary nav-link">View&nbsp;<i
+                class="fa fa-angle-right"></i></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3" style="height: 200px;">
+          <div class="d-flex flex-row mb-3"><img src="./img/brand_img/headphones.png" width="70">
+            <div class="d-flex flex-column ml-2"><span>HeadPhone</span><span class="text-black-50">New
+                Update</span><span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                  class="fa fa-star"></i><i class="fa fa-star"></i></span></div>
+          </div>
+          <h6>Get more all Phone Products New release.</h6>
+          <div class="d-flex justify-content-end install mt-3"><a href="" class="text-primary nav-link">View&nbsp;<i
+                class="fa fa-angle-right"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- brand category -->
 
   <div class="container mt-5 shadow-sm brand_bg">
-    <div class="bg-dark p-1 p-lg-2 p-sm-1 h2 text-white">Populer Brands</div>
+    <div class="bg-dark p-1 p-lg-2 p-sm-1 h2 text-white">Popular Brands</div>
     <div class="row row-cols-lg-6">
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img1.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img1.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img2.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img2.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img3.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img3.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img4.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img4.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img5.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img5.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img6.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img6.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img7.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img7.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img8.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img8.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img9.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img9.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img10.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img10.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img11.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img11.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
       <div class="col p-2">
         <div class="brand">
-          <a href=""><img src="./img/brand_img/img12.jpg" alt="" class="rounded d-block"></a>
+          <a href=""><img src="./img/brand_img/img12.jpg" alt="" class="rounded d-block" /></a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- end brand categery -->
-  <!-- Contant -->
+  <!-- end brand category -->
+  <!-- Content -->
   <div class="container mt-5">
     <div class="bg_con row row-cols-lg-6 row-cols-md-4 row-cols-sm-2 row-cols-2">
       <div class="col p-2">
@@ -200,7 +293,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -213,8 +308,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning m-auto"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy
-                Now</button>
+              <button class="btn btn-warning m-auto">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -227,7 +323,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -240,7 +338,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -253,7 +353,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -266,7 +368,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -279,7 +383,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -292,7 +398,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -305,7 +413,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -318,7 +428,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -331,7 +443,9 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
@@ -344,18 +458,16 @@
             <p class="card-text text-danger">top price</p>
             <h3 class="text-danger">$500.00</h3>
             <div class="btn_hover">
-              <button class="btn btn-warning"><span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now</button>
+              <button class="btn btn-warning">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>Buy Now
+              </button>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <!--  -->
-
-
-
 
   <script src="./src/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
   <script src="./index.js"></script>
