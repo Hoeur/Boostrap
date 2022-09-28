@@ -74,6 +74,13 @@
     transition: bottom 0.5s;
     opacity: 1;
   }
+  .slide{
+    height: 400px;
+    background-color: red;
+  }
+  .slide img{
+    height: 400px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
