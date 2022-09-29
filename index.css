@@ -59,7 +59,9 @@
 .col-md-4 {
   margin-top: 27px;
 }
-
+.computer_cat .card img{
+  height: 10px;
+}
 /* media query */
 
 /* Extra small devices (phones, 600px and down) */
@@ -94,7 +96,18 @@
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .slide{
+    height: 600px;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .slide{
+    height: 600px;
+  }
+  .slide img{
+    height: 600px;
+  }
+}
